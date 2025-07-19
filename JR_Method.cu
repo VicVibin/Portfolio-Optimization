@@ -295,7 +295,7 @@ int main()
           << "  type  = " << type << "\n";
 
     auto start1 = std::chrono::high_resolution_clock::now();
-    // double algo = JR_Method_CPU(S0, K, T, sigma, r, step, type);
+    double algo = JR_Method_CPU(S0, K, T, sigma, r, step, type);
     auto end1 = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> elapsed1 = end1 - start1;
     std::cout << "Completed CPU computation, running GPU"<< "\n";
