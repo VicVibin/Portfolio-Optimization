@@ -1,4 +1,0 @@
-['FMS', 'FMX', 'FN', 'FNA', 'FNB', 'FNB.PE', 'FNCB', 'FNCH', 'FNCL', 'FND', 'FNF', 'FNGR', 'FNHC', 'FNKO', 'FNLC',
-    'FNV', 'FNWB', 'FNWD',
-    'FOA', 'FOCS', 'FOE', 'FOF', 'FOLD', 'FONR', 'FOR', 'FORA', 'FORD', 'FOREU', 'FOREW', 'FORG', 'FORL', 'FORM',
-    'FORR', 'FOSL', 'FOUN', 'FOUNU']

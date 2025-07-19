@@ -8,7 +8,7 @@ from stochPathSim.statistics_utils import calculate_statistics, display_statisti
 import statsmodels.api as sm
 from fredapi import Fred
 
-fred = Fred(api_key='c496761920d5eedc780bf493ac3ae0e9')
+fred = Fred(api_key=str(input("Enter your api key: ")))
 ten_year_treasury_note = fred.get_series_latest_release('GS10') / 100
 risk_free_rate = ten_year_treasury_note.iloc[-1]
 
