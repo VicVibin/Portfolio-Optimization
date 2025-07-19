@@ -305,7 +305,7 @@ int main()
 
     std::chrono::duration<double> elapsed = end - start;
     std::cout << "Option Price GPU: $" << option_price << "\n";
-    // std::cout << "Option Price CPU: $" << algo << "\n";
+    std::cout << "Option Price CPU: $" << algo << "\n";
     std::cout << "Time elapsed=> CPU vs GPU for " << step << " steps: \n" 
     << elapsed1.count() <<"s" << " vs " << elapsed.count() << "s \n";
     return 0;
